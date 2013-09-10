@@ -15,8 +15,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-     <!-- fontawesome core CSS -->
+    <!-- fontawesome core CSS -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,6 +32,7 @@
     <!-- TODO ADD FACEBOOK OG META TAGS -->
 
   </head>
+
   <body>
 
     <!-- NAVBAR
@@ -48,21 +51,10 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html"><i class="icon-home"></i></a></li>
                 <li><a href="about.html">Who are we</a></li>
-                <li><a href="process.html">How is works</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">What we do<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Service1</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Service2</a></li>
-                     <li class="divider"></li>
-                    <li><a href="#">Service3</a></li>
-                  </ul>
-                </li>
-                <li class="active"><a href="./contact.html">Get in touch</a></li>
-                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="process.html">How it works</a></li>
+                <li class="active"><a href="contact.html">Get in touch</a></li>
               </ul>
             </div>
           </div>
@@ -70,7 +62,9 @@
       </div>
     </div>
 
- <!-- CONTAINER MARKETING
+
+
+    <!-- MAIN 
     ================================================== -->
     <div class="container-wrapper">
       <div class="container">
@@ -80,8 +74,11 @@
                <div class="row">
                   <h1>Get in touch with us.</h1>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12 text-left"> 
-                        Donec viverra, leo ac aliquam condimentum, mi elit sodales mi, non ultricies dolor nulla ut leo. mi elit sodales mi, non ultricies dolor nulla ut leo. 
-                        </div>
+                        <ul>
+                          <li>Have a question for our doctors?</li>
+                          <li>Can’t decide which package would benefit you most?</li>
+                          <li>Why not fill in the form below and we will contact you.</li>
+                        </ul></div>
                 </div> <!-- /.row -->
               </div> <!-- /.col-xs -->
           </div> <!-- /.container -->
@@ -90,84 +87,25 @@
 
       <div class="container">
         <div class="panel panel-default">
-          <div class="col-12 col-lg-12 panel-heading text-center">
-            <h3>Contact Form</h3>
-          </div>
           <div class="panel-body"> 
               <div class="row">
-                <div class="col-xs-12 col-sm-4 col-lg-8"> 
-
-
-
-
-<form class="form-horizontal" action="post.php">
-<fieldset>
-
-<!-- Form Name -->
-
-<!-- Text input-->
-<strong>Personal information</strong>
-<div class="control-group">
-
-  <label class="control-label" for="firstname">First Name</label>
-  <div class="controls">
-    <input id="firstname" name="firstname" placeholder="" class="input-xlarge" required="" type="text" size="30">    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="lastname">Last Name</label>
-  <div class="controls">
-    <input id="lastname" name="lastname" placeholder="" class="input-xlarge" required="" type="text" size="30">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for="email">Email</label>
-  <div class="controls">
-    <input id="email" name="email" placeholder="" class="input-xlarge" required="" type="text" size="30">
-    
-  </div>
-</div>
-
-<!-- Textarea -->
-<div class="control-group">
-  <label class="control-label" for="message" >Message</label>
-  <div class="controls">                     
-    <textarea id="message" name="message" cols="40" rows="5">Tell us what you are look to achieve.</textarea>
-  </div>
-</div>
-
-<!-- Button -->
-<div class="control-group">
-  <label class="control-label" for="button_submit"></label>
-  <div class="controls">
-    <button id="button_submit" name="button_submit" class="btn btn-success">Contact me</button>
-  </div>
-</div>
-
-</fieldset>
-</form>
-
-
+                <div class="col-xs-12 col-sm-4 col-lg-8 text-center"> 
+                  <!-- BEGIN Podio web form -->
+                  <script src="https://podio.com/webforms/5373646/421259.js"></script>
+                  <script type="text/javascript">
+                    _podioWebForm.render("421259")
+                  </script>
+                  <!-- END Podio web form -->
                 </div> <!-- /. col 2 -->
               </div> <!-- /. row outer-->             
           </div> <!-- /. panel-body -->  
         </div> <!-- /. panel-default --> 
       </div> <!-- /. container --> 
+    </div>  
 
-
-       
-
-
-<!-- FOOTER
-================================================== -->
-
-
-<footer id="foot-sec">
+    <!-- FOOTER
+    ================================================== -->
+    <footer id="foot-sec">
   <div class="container">
     <div class="row">
       
@@ -214,7 +152,7 @@
       </div>
     </div>
   </div>
-</footer>
+    </footer>
 
 
     <!-- TODO Google Analytics -->
