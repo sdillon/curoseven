@@ -80,7 +80,7 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/carousel.css",
+			"file": "assets/css/custom.css",
 			"settings":
 			{
 				"buffer_size": 3526,
@@ -331,7 +331,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/carousel.css",
+					"file": "assets/css/custom.css",
 					"settings":
 					{
 						"buffer_size": 3526,
