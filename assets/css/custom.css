@@ -6,6 +6,7 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
   font-family: 'Quattrocento Sans', sans-serif;
+  
 }
 
 .container-wrapper{
@@ -107,6 +108,12 @@ footer .social-footer-icons {
 
 .carousel h1{
   font-size: 42px;
+  font-weight: 200;
+}
+
+.carousel h2{
+  font-size: 22px;
+  font-weight: 200;
 }
 
 /* Declare heights because of positioning of img element */
