@@ -40,6 +40,13 @@ body {
   color: #ffffff;
 }
 
+.container{}
+
+.jumbotron{
+   padding-top: 0px;
+   margin-top: 0px;
+}
+
 
 footer {
     background: none repeat scroll 0 0 #cccccc;
