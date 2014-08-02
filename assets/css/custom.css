@@ -98,6 +98,26 @@ footer .social-footer-icons {
 .navbar-wrapper {
   position: relative;
   z-index: 15;
+
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover
+  {
+color:#F91379;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a
+{
+
+  color:#96C950;
+}
+
+
+.navbar-inverse .navbar-brand > a:hover
+  {
+color:#F91379;
 }
 
 
