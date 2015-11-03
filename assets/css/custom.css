@@ -120,8 +120,16 @@ color:#F91379;
 color:#F91379;
 }
 
+/* podio-webform-frame
+-------------------------------------------------- */
+.podio-webform-frame{
 
-/* AROUSEL
+  min-height: 780px;
+}
+
+
+
+/* CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
